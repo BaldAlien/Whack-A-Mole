@@ -1,0 +1,5 @@
+"..\..\CMSIS\core_cm0.c" -E -c --cpu Cortex-M0 -D__EVAL -O0 --apcs=interwork --split_sections -I.\ -I..\..\CMSIS -I..\..\Driver\Include -I..\..\Driver\Include\Driver -I..\..\Driver\Include\NUC1xx-LB_002 -I..\..\Driver\Include\System 
+-I D:\KEIL\ARM\RV31\INC 
+-I D:\KEIL\ARM\CMSIS\Include 
+-I D:\KEIL\ARM\Inc\Nuvoton\NUC1xx 
+-o ".\lst\core_cm0.i" --list_dir ".\\lst\\" --list

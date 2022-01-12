@@ -1,0 +1,11 @@
+.\obj\seven_segment.o: ..\..\Driver\Src\NUC1xx-LB_002\Seven_Segment.c
+.\obj\seven_segment.o: D:\Keil\ARM\RV31\INC\stdio.h
+.\obj\seven_segment.o: ..\..\CMSIS\NUC1xx.h
+.\obj\seven_segment.o: ..\..\CMSIS\core_cm0.h
+.\obj\seven_segment.o: D:\Keil\ARM\RV31\INC\stdint.h
+.\obj\seven_segment.o: ..\..\CMSIS\system_NUC1xx.h
+.\obj\seven_segment.o: ..\..\Driver\Include\System\SysInfra.h
+.\obj\seven_segment.o: ..\..\Driver\Include\System\ModuleID.h
+.\obj\seven_segment.o: ..\..\Driver\Include\Driver\DrvGPIO.h
+.\obj\seven_segment.o: ..\..\Driver\Include\Driver\DrvSYS.h
+.\obj\seven_segment.o: ..\..\Driver\Include\NUC1xx-LB_002\Seven_Segment.h

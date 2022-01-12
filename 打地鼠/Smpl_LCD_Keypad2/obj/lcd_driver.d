@@ -1,0 +1,11 @@
+.\obj\lcd_driver.o: ..\LCD_Driver.c
+.\obj\lcd_driver.o: ..\..\CMSIS\NUC1xx.h
+.\obj\lcd_driver.o: ..\..\CMSIS\core_cm0.h
+.\obj\lcd_driver.o: D:\Keil\ARM\RV31\INC\stdint.h
+.\obj\lcd_driver.o: ..\..\CMSIS\system_NUC1xx.h
+.\obj\lcd_driver.o: ..\..\Driver\Include\System\SysInfra.h
+.\obj\lcd_driver.o: ..\..\Driver\Include\System\ModuleID.h
+.\obj\lcd_driver.o: ..\..\Driver\Include\Driver\DrvSYS.h
+.\obj\lcd_driver.o: ..\..\Driver\Include\Driver\DrvSPI.h
+.\obj\lcd_driver.o: ..\..\Driver\Include\Driver\DrvGPIO.h
+.\obj\lcd_driver.o: ..\LCD_Driver.h

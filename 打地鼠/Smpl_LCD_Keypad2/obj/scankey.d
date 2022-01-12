@@ -1,0 +1,10 @@
+.\obj\scankey.o: ..\..\Driver\Src\NUC1xx-LB_002\ScanKey.c
+.\obj\scankey.o: D:\Keil\ARM\RV31\INC\stdio.h
+.\obj\scankey.o: ..\..\Driver\Include\Driver\DrvGPIO.h
+.\obj\scankey.o: ..\..\CMSIS\NUC1xx.h
+.\obj\scankey.o: ..\..\CMSIS\core_cm0.h
+.\obj\scankey.o: D:\Keil\ARM\RV31\INC\stdint.h
+.\obj\scankey.o: ..\..\CMSIS\system_NUC1xx.h
+.\obj\scankey.o: ..\..\Driver\Include\System\SysInfra.h
+.\obj\scankey.o: ..\..\Driver\Include\System\ModuleID.h
+.\obj\scankey.o: ..\..\Driver\Include\NUC1xx-LB_002\ScanKey.h

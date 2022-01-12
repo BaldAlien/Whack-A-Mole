@@ -1,0 +1,5 @@
+-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\ -I..\..\CMSIS -I..\..\Driver\Include -I..\..\Driver\Include\Driver -I..\..\Driver\Include\NUC1xx-LB_002 -I..\..\Driver\Include\System 
+-I D:\KEIL\ARM\RV31\INC 
+-I D:\KEIL\ARM\CMSIS\Include 
+-I D:\KEIL\ARM\Inc\Nuvoton\NUC1xx 
+-o ".\obj\core_cm0.o" --list_dir ".\\lst\\" --list --omf_browse ".\obj\core_cm0.crf" --depend ".\obj\core_cm0.d" "..\..\CMSIS\core_cm0.c"

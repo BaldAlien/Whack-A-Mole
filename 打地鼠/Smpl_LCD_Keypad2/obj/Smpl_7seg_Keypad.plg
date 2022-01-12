@@ -1,0 +1,475 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Project:</h2>
+D:\OneDrive\Project\Keil\nuc140_stu\nuc140_stu\SampleCode\Smpl_LCD_Keypad\Smpl_LCD_Keypad.uvproj
+Project File Date:  12/11/2020
+
+<h2>Output:</h2>
+Build target 'Smpl_LCD_Keypad'
+creating preprocessor file for core_cm0.c...
+compiling core_cm0.c...
+creating preprocessor file for system_NUC1xx.c...
+compiling system_NUC1xx.c...
+assembling startup_NUC1xx.s...
+creating preprocessor file for Smpl_LCD_Keypad.c...
+compiling Smpl_LCD_Keypad.c...
+Smpl_LCD_Keypad.c(60): warning:  #223-D: function "LoadImg" declared implicitly
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                ^
+Smpl_LCD_Keypad.c(60): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                             ^
+Smpl_LCD_Keypad.c(60): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                             ^
+Smpl_LCD_Keypad.c(60): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                              ^
+Smpl_LCD_Keypad.c(60): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                               ^
+Smpl_LCD_Keypad.c(93): error:  #159: declaration is incompatible with previous "LoadImg" (declared at line 60)
+Smpl_LCD_Keypad.c:   void LoadImg(uint8_t Img_num, uint8_t Img_location)
+Smpl_LCD_Keypad.c:        ^
+Smpl_LCD_Keypad.c(152): warning:  #223-D: function "Initial_panel" declared implicitly
+Smpl_LCD_Keypad.c:      Initial_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(153): warning:  #223-D: function "clr_all_panel" declared implicitly
+Smpl_LCD_Keypad.c:      clr_all_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(166): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                              ^
+Smpl_LCD_Keypad.c(166): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                              ^
+Smpl_LCD_Keypad.c(166): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                               ^
+Smpl_LCD_Keypad.c(166): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                                ^
+Smpl_LCD_Keypad.c(169): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                             ^
+Smpl_LCD_Keypad.c(169): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                             ^
+Smpl_LCD_Keypad.c(169): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                              ^
+Smpl_LCD_Keypad.c(169): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                               ^
+Smpl_LCD_Keypad.c(178): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                          ^
+Smpl_LCD_Keypad.c(178): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                          ^
+Smpl_LCD_Keypad.c(178): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                           ^
+Smpl_LCD_Keypad.c(178): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                            ^
+Smpl_LCD_Keypad.c(199): warning:  #223-D: function "draw_LCD" declared implicitly
+Smpl_LCD_Keypad.c:              draw_LCD(DisplayBuf); // render to LCD
+Smpl_LCD_Keypad.c:              ^
+Smpl_LCD_Keypad.c(138): warning:  #177-D: variable "mole_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char mole_text[15] = "mole = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(139): warning:  #177-D: variable "whack_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char whack_text[15] = "whack = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(140): warning:  #177-D: variable "res_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char res_text[15] = "res = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(142): warning:  #177-D: variable "mole_state" was declared but never referenced
+Smpl_LCD_Keypad.c:      int8_t mole_state = 1;             //地鼠状态，1代表活的�?代表死的
+Smpl_LCD_Keypad.c:             ^
+Smpl_LCD_Keypad.c: Smpl_LCD_Keypad.c: 8 warnings, 17 errors
+creating preprocessor file for Ascii_Table.C...
+compiling Ascii_Table.C...
+creating preprocessor file for ScanKey.c...
+compiling ScanKey.c...
+creating preprocessor file for Seven_Segment.c...
+compiling Seven_Segment.c...
+creating preprocessor file for LCD_Driver.c...
+compiling LCD_Driver.c...
+creating preprocessor file for DrvGPIO.c...
+compiling DrvGPIO.c...
+Target not created
+Build target 'Smpl_LCD_Keypad'
+creating preprocessor file for core_cm0.c...
+compiling core_cm0.c...
+creating preprocessor file for system_NUC1xx.c...
+compiling system_NUC1xx.c...
+assembling startup_NUC1xx.s...
+creating preprocessor file for Smpl_LCD_Keypad.c...
+compiling Smpl_LCD_Keypad.c...
+Smpl_LCD_Keypad.c(52): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:   void InitData(void)�?                     ^
+Smpl_LCD_Keypad.c(52): error:  #130: expected a "{"
+Smpl_LCD_Keypad.c:   void InitData(void)�?                     ^
+Smpl_LCD_Keypad.c(52): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:   void InitData(void)�?                      ^
+Smpl_LCD_Keypad.c(52): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:   void InitData(void)�?                       ^
+Smpl_LCD_Keypad.c(53): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:   void Delay(int32_t count)�?                           ^
+Smpl_LCD_Keypad.c(53): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:   void Delay(int32_t count)�?                            ^
+Smpl_LCD_Keypad.c(53): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:   void Delay(int32_t count)�?                             ^
+Smpl_LCD_Keypad.c(54): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:   int8_t GetRand(void)�?                      ^
+Smpl_LCD_Keypad.c(54): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:   int8_t GetRand(void)�?                       ^
+Smpl_LCD_Keypad.c(54): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:   int8_t GetRand(void)�?                        ^
+Smpl_LCD_Keypad.c(60): warning:  #12-D: parsing restarts here after previous syntax error
+Smpl_LCD_Keypad.c:   {
+Smpl_LCD_Keypad.c:   ^
+Smpl_LCD_Keypad.c(68): warning:  #223-D: function "LoadImg" declared implicitly
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                ^
+Smpl_LCD_Keypad.c(68): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                             ^
+Smpl_LCD_Keypad.c(68): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                             ^
+Smpl_LCD_Keypad.c(68): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                              ^
+Smpl_LCD_Keypad.c(68): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                               ^
+Smpl_LCD_Keypad.c(101): error:  #159: declaration is incompatible with previous "LoadImg" (declared at line 68)
+Smpl_LCD_Keypad.c:   void LoadImg(uint8_t Img_num, uint8_t Img_location)
+Smpl_LCD_Keypad.c:        ^
+Smpl_LCD_Keypad.c(160): warning:  #223-D: function "Initial_panel" declared implicitly
+Smpl_LCD_Keypad.c:      Initial_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(161): warning:  #223-D: function "clr_all_panel" declared implicitly
+Smpl_LCD_Keypad.c:      clr_all_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(174): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                              ^
+Smpl_LCD_Keypad.c(174): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                              ^
+Smpl_LCD_Keypad.c(174): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                               ^
+Smpl_LCD_Keypad.c(174): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                                ^
+Smpl_LCD_Keypad.c(177): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                             ^
+Smpl_LCD_Keypad.c(177): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                             ^
+Smpl_LCD_Keypad.c(177): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                              ^
+Smpl_LCD_Keypad.c(177): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                               ^
+Smpl_LCD_Keypad.c(186): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                          ^
+Smpl_LCD_Keypad.c(186): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                          ^
+Smpl_LCD_Keypad.c(186): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                           ^
+Smpl_LCD_Keypad.c(186): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                            ^
+Smpl_LCD_Keypad.c(207): warning:  #223-D: function "draw_LCD" declared implicitly
+Smpl_LCD_Keypad.c:              draw_LCD(DisplayBuf); // render to LCD
+Smpl_LCD_Keypad.c:              ^
+Smpl_LCD_Keypad.c(146): warning:  #177-D: variable "mole_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char mole_text[15] = "mole = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(147): warning:  #177-D: variable "whack_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char whack_text[15] = "whack = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(148): warning:  #177-D: variable "res_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char res_text[15] = "res = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(150): warning:  #177-D: variable "mole_state" was declared but never referenced
+Smpl_LCD_Keypad.c:      int8_t mole_state = 1;             //地鼠状态，1代表活的�?代表死的
+Smpl_LCD_Keypad.c:             ^
+Smpl_LCD_Keypad.c: Smpl_LCD_Keypad.c: 9 warnings, 27 errors
+creating preprocessor file for Ascii_Table.C...
+compiling Ascii_Table.C...
+creating preprocessor file for ScanKey.c...
+compiling ScanKey.c...
+creating preprocessor file for Seven_Segment.c...
+compiling Seven_Segment.c...
+creating preprocessor file for LCD_Driver.c...
+compiling LCD_Driver.c...
+creating preprocessor file for DrvGPIO.c...
+compiling DrvGPIO.c...
+Target not created
+Build target 'Smpl_LCD_Keypad'
+creating preprocessor file for core_cm0.c...
+compiling core_cm0.c...
+creating preprocessor file for system_NUC1xx.c...
+compiling system_NUC1xx.c...
+assembling startup_NUC1xx.s...
+creating preprocessor file for Smpl_LCD_Keypad.c...
+compiling Smpl_LCD_Keypad.c...
+Smpl_LCD_Keypad.c(68): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                             ^
+Smpl_LCD_Keypad.c(68): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                             ^
+Smpl_LCD_Keypad.c(68): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                              ^
+Smpl_LCD_Keypad.c(68): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                               ^
+Smpl_LCD_Keypad.c(160): warning:  #223-D: function "Initial_panel" declared implicitly
+Smpl_LCD_Keypad.c:      Initial_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(161): warning:  #223-D: function "clr_all_panel" declared implicitly
+Smpl_LCD_Keypad.c:      clr_all_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(174): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                              ^
+Smpl_LCD_Keypad.c(174): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                              ^
+Smpl_LCD_Keypad.c(174): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                               ^
+Smpl_LCD_Keypad.c(174): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                                ^
+Smpl_LCD_Keypad.c(177): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                             ^
+Smpl_LCD_Keypad.c(177): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                             ^
+Smpl_LCD_Keypad.c(177): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                              ^
+Smpl_LCD_Keypad.c(177): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                               ^
+Smpl_LCD_Keypad.c(186): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                          ^
+Smpl_LCD_Keypad.c(186): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                          ^
+Smpl_LCD_Keypad.c(186): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                           ^
+Smpl_LCD_Keypad.c(186): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                            ^
+Smpl_LCD_Keypad.c(207): warning:  #223-D: function "draw_LCD" declared implicitly
+Smpl_LCD_Keypad.c:              draw_LCD(DisplayBuf); // render to LCD
+Smpl_LCD_Keypad.c:              ^
+Smpl_LCD_Keypad.c(146): warning:  #177-D: variable "mole_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char mole_text[15] = "mole = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(147): warning:  #177-D: variable "whack_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char whack_text[15] = "whack = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(148): warning:  #177-D: variable "res_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char res_text[15] = "res = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(150): warning:  #177-D: variable "mole_state" was declared but never referenced
+Smpl_LCD_Keypad.c:      int8_t mole_state = 1;             //地鼠状态，1代表活的�?代表死的
+Smpl_LCD_Keypad.c:             ^
+Smpl_LCD_Keypad.c: Smpl_LCD_Keypad.c: 7 warnings, 16 errors
+creating preprocessor file for Ascii_Table.C...
+compiling Ascii_Table.C...
+creating preprocessor file for ScanKey.c...
+compiling ScanKey.c...
+creating preprocessor file for Seven_Segment.c...
+compiling Seven_Segment.c...
+creating preprocessor file for LCD_Driver.c...
+compiling LCD_Driver.c...
+creating preprocessor file for DrvGPIO.c...
+compiling DrvGPIO.c...
+Target not created
+Build target 'Smpl_LCD_Keypad'
+creating preprocessor file for core_cm0.c...
+compiling core_cm0.c...
+creating preprocessor file for system_NUC1xx.c...
+compiling system_NUC1xx.c...
+assembling startup_NUC1xx.s...
+creating preprocessor file for Smpl_LCD_Keypad.c...
+compiling Smpl_LCD_Keypad.c...
+Smpl_LCD_Keypad.c(68): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                             ^
+Smpl_LCD_Keypad.c(68): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                             ^
+Smpl_LCD_Keypad.c(68): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                              ^
+Smpl_LCD_Keypad.c(68): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:              LoadImg(0, i)�?                               ^
+Smpl_LCD_Keypad.c(160): warning:  #223-D: function "Initial_panel" declared implicitly
+Smpl_LCD_Keypad.c:      Initial_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(161): warning:  #223-D: function "clr_all_panel" declared implicitly
+Smpl_LCD_Keypad.c:      clr_all_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(174): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                              ^
+Smpl_LCD_Keypad.c(174): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                              ^
+Smpl_LCD_Keypad.c(174): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                               ^
+Smpl_LCD_Keypad.c(174): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(0, mole_now)�?//刷走上一只地�?                                                ^
+Smpl_LCD_Keypad.c(177): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                             ^
+Smpl_LCD_Keypad.c(177): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                             ^
+Smpl_LCD_Keypad.c(177): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                              ^
+Smpl_LCD_Keypad.c(177): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(1, mole_now)�?                                               ^
+Smpl_LCD_Keypad.c(186): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                          ^
+Smpl_LCD_Keypad.c(186): error:  #65: expected a ";"
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                          ^
+Smpl_LCD_Keypad.c(186): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                           ^
+Smpl_LCD_Keypad.c(186): error:  #7: unrecognized token
+Smpl_LCD_Keypad.c:                      LoadImg(2, mole_now)�? //地鼠变为死的
+Smpl_LCD_Keypad.c:                                            ^
+Smpl_LCD_Keypad.c(207): warning:  #223-D: function "draw_LCD" declared implicitly
+Smpl_LCD_Keypad.c:              draw_LCD(DisplayBuf); // render to LCD
+Smpl_LCD_Keypad.c:              ^
+Smpl_LCD_Keypad.c(146): warning:  #177-D: variable "mole_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char mole_text[15] = "mole = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(147): warning:  #177-D: variable "whack_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char whack_text[15] = "whack = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(148): warning:  #177-D: variable "res_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char res_text[15] = "res = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(150): warning:  #177-D: variable "mole_state" was declared but never referenced
+Smpl_LCD_Keypad.c:      int8_t mole_state = 1;             //地鼠状态，1代表活的�?代表死的
+Smpl_LCD_Keypad.c:             ^
+Smpl_LCD_Keypad.c: Smpl_LCD_Keypad.c: 7 warnings, 16 errors
+creating preprocessor file for Ascii_Table.C...
+compiling Ascii_Table.C...
+creating preprocessor file for ScanKey.c...
+compiling ScanKey.c...
+creating preprocessor file for Seven_Segment.c...
+compiling Seven_Segment.c...
+creating preprocessor file for LCD_Driver.c...
+compiling LCD_Driver.c...
+creating preprocessor file for DrvGPIO.c...
+compiling DrvGPIO.c...
+Target not created
+Build target 'Smpl_LCD_Keypad'
+creating preprocessor file for core_cm0.c...
+compiling core_cm0.c...
+creating preprocessor file for system_NUC1xx.c...
+compiling system_NUC1xx.c...
+assembling startup_NUC1xx.s...
+creating preprocessor file for Smpl_LCD_Keypad.c...
+compiling Smpl_LCD_Keypad.c...
+Smpl_LCD_Keypad.c(60): error:  #169: expected a declaration
+Smpl_LCD_Keypad.c:   {
+Smpl_LCD_Keypad.c:   ^
+Smpl_LCD_Keypad.c(160): warning:  #223-D: function "Initial_panel" declared implicitly
+Smpl_LCD_Keypad.c:      Initial_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(161): warning:  #223-D: function "clr_all_panel" declared implicitly
+Smpl_LCD_Keypad.c:      clr_all_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(207): warning:  #223-D: function "draw_LCD" declared implicitly
+Smpl_LCD_Keypad.c:              draw_LCD(DisplayBuf); // render to LCD
+Smpl_LCD_Keypad.c:              ^
+Smpl_LCD_Keypad.c(146): warning:  #177-D: variable "mole_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char mole_text[15] = "mole = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(147): warning:  #177-D: variable "whack_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char whack_text[15] = "whack = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(148): warning:  #177-D: variable "res_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char res_text[15] = "res = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(150): warning:  #550-D: variable "mole_state" was set but never used
+Smpl_LCD_Keypad.c:      int8_t mole_state = 1;             //地鼠状态，1代表活的�?代表死的
+Smpl_LCD_Keypad.c:             ^
+Smpl_LCD_Keypad.c: Smpl_LCD_Keypad.c: 7 warnings, 1 error
+creating preprocessor file for Ascii_Table.C...
+compiling Ascii_Table.C...
+creating preprocessor file for ScanKey.c...
+compiling ScanKey.c...
+creating preprocessor file for Seven_Segment.c...
+compiling Seven_Segment.c...
+creating preprocessor file for LCD_Driver.c...
+compiling LCD_Driver.c...
+creating preprocessor file for DrvGPIO.c...
+compiling DrvGPIO.c...
+Target not created
+Build target 'Smpl_LCD_Keypad'
+creating preprocessor file for core_cm0.c...
+compiling core_cm0.c...
+creating preprocessor file for system_NUC1xx.c...
+compiling system_NUC1xx.c...
+assembling startup_NUC1xx.s...
+creating preprocessor file for Smpl_LCD_Keypad.c...
+compiling Smpl_LCD_Keypad.c...
+Smpl_LCD_Keypad.c(160): warning:  #223-D: function "Initial_panel" declared implicitly
+Smpl_LCD_Keypad.c:      Initial_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(161): warning:  #223-D: function "clr_all_panel" declared implicitly
+Smpl_LCD_Keypad.c:      clr_all_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(207): warning:  #223-D: function "draw_LCD" declared implicitly
+Smpl_LCD_Keypad.c:              draw_LCD(DisplayBuf); // render to LCD
+Smpl_LCD_Keypad.c:              ^
+Smpl_LCD_Keypad.c(146): warning:  #177-D: variable "mole_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char mole_text[15] = "mole = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(147): warning:  #177-D: variable "whack_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char whack_text[15] = "whack = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(148): warning:  #177-D: variable "res_text" was declared but never referenced
+Smpl_LCD_Keypad.c:      char res_text[15] = "res = ";
+Smpl_LCD_Keypad.c:           ^
+Smpl_LCD_Keypad.c(150): warning:  #550-D: variable "mole_state" was set but never used
+Smpl_LCD_Keypad.c:      int8_t mole_state = 1;             //地鼠状态，1代表活的�?代表死的
+Smpl_LCD_Keypad.c:             ^
+Smpl_LCD_Keypad.c: Smpl_LCD_Keypad.c: 7 warnings, 0 errors
+creating preprocessor file for Ascii_Table.C...
+compiling Ascii_Table.C...
+creating preprocessor file for ScanKey.c...
+compiling ScanKey.c...
+creating preprocessor file for Seven_Segment.c...
+compiling Seven_Segment.c...
+creating preprocessor file for LCD_Driver.c...
+compiling LCD_Driver.c...
+creating preprocessor file for DrvGPIO.c...
+compiling DrvGPIO.c...
+linking...
+Program Size: Code=3228 RO-data=276 RW-data=1548 ZI-data=2372  
+User command #1: fromelf --bin ".\obj\Smpl_7seg_Keypad.axf" --output ".\obj\Smpl_7seg_Keypad.bin"
+User command #2: fromelf --text -c ".\obj\Smpl_7seg_Keypad.axf" --output ".\obj\Smpl_7seg_Keypad.txt"
+".\obj\Smpl_7seg_Keypad.axf" - 0 Error(s), 7 Warning(s).
+Build target 'Smpl_LCD_Keypad'
+creating preprocessor file for core_cm0.c...
+compiling core_cm0.c...
+creating preprocessor file for system_NUC1xx.c...
+compiling system_NUC1xx.c...
+assembling startup_NUC1xx.s...
+creating preprocessor file for Smpl_LCD_Keypad.c...
+compiling Smpl_LCD_Keypad.c...
+Smpl_LCD_Keypad.c(160): warning:  #223-D: function "Initial_panel" declared implicitly
+Smpl_LCD_Keypad.c:      Initial_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(161): warning:  #223-D: function "clr_all_panel" declared implicitly
+Smpl_LCD_Keypad.c:      clr_all_panel();
+Smpl_LCD_Keypad.c:      ^
+Smpl_LCD_Keypad.c(207): warning:  #223-D: function "draw_LCD" declared implicitly
+Smpl_LCD_Keypad.c:              draw_LCD(DisplayBuf); // render to LCD
+Smpl_LCD_Keypad.c:              ^
+Smpl_LCD_Keypad.c(150): warning:  #550-D: variable "mole_state" was set but never used
+Smpl_LCD_Keypad.c:      int8_t mole_state = 1;             //地鼠状态，1代表活的�?代表死的
+Smpl_LCD_Keypad.c:             ^
+Smpl_LCD_Keypad.c: Smpl_LCD_Keypad.c: 4 warnings, 0 errors
+creating preprocessor file for Ascii_Table.C...
+compiling Ascii_Table.C...
+creating preprocessor file for ScanKey.c...
+compiling ScanKey.c...
+creating preprocessor file for Seven_Segment.c...
+compiling Seven_Segment.c...
+creating preprocessor file for LCD_Driver.c...
+compiling LCD_Driver.c...
+creating preprocessor file for DrvGPIO.c...
+compiling DrvGPIO.c...
+linking...
+Program Size: Code=3176 RO-data=228 RW-data=1548 ZI-data=2372  
+User command #1: fromelf --bin ".\obj\Smpl_7seg_Keypad.axf" --output ".\obj\Smpl_7seg_Keypad.bin"
+User command #2: fromelf --text -c ".\obj\Smpl_7seg_Keypad.axf" --output ".\obj\Smpl_7seg_Keypad.txt"
+".\obj\Smpl_7seg_Keypad.axf" - 0 Error(s), 4 Warning(s).
